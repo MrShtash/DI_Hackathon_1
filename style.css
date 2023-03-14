@@ -8,7 +8,7 @@ body {
 
 .logo {
   position: fixed;
-  bottom: 50px;
+  top: 50px;
   left: 50px;
   height: 35px;
   width: 35px;
@@ -18,7 +18,7 @@ body {
 
 .phone {
   position: fixed;
-  bottom: 50px;
+  top: 50px;
   right: 50px;
   height: 35px;
   width: 150px;
