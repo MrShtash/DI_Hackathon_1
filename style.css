@@ -146,3 +146,31 @@ a:visited {
   color: rgb(73, 68, 68);
   scale: 1.2;
 }*/
+
+.footer {
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footmenu {
+   text-align: center;
+  align-items: center;
+}
+
+ul {
+  columns: 3;
+  list-style: none;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
