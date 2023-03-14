@@ -2,3 +2,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(216, 216, 216);
+}
+
+.logo {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  height: 35px;
+  width: 35px;
+  border: 2px solid black;
+
+}
+
+.phone {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 35px;
+  width: 150px;
+  border: 2px solid black;
+}
