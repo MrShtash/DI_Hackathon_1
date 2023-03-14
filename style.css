@@ -4,24 +4,145 @@
 
 body {
   background-color: rgb(216, 216, 216);
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Tilt Warp', cursive;
 }
 
 .logo {
-  position: fixed;
-  top: 50px;
+  position: absolute;
+  top: 75px;
   left: 50px;
   height: 35px;
   width: 35px;
-  border: 2px solid black;
+  
 
 }
 
 .phone {
-  position: fixed;
-  top: 50px;
+  position: absolute;
+  top: 75px;
   right: 50px;
   height: 35px;
   width: 150px;
-  border: 2px solid black;
+  text-align: center;
 }
 
+.dropbtn {
+  background-color: #a4a4a400;
+  border: 2px solid #a4a4a400;
+  color: black;
+
+  padding: 6px;
+  font-size: 32px;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 1s;
+  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Tilt Warp', cursive;
+}
+
+.dropup {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.dropup-content {
+  display: inline-block;
+  position: absolute;
+  
+  width: 65%;
+  margin-left: 17%;
+  text-align: center;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #e8a895;
+  border-radius: 10px;
+  
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 35px;
+  transition: all 0.5s;
+}
+
+.dropup-content a:hover {
+  scale: 1.1;
+  background-color: #a4a4a4;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #a4a4a4;
+  scale: 1.2;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner {
+  
+  background-color: #e8a895;
+  text-align: center;
+  margin: auto;
+  margin-top: 85px;
+  max-width: 1000px;
+  font-size: 32px;
+  border: 3px solid grey;
+  border-radius: 25px;
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+/*.menu {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.hoverlink {
+  transition: all 1s;
+}
+
+a:link {
+  color: black; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.hoverlink:hover {
+  color: rgb(73, 68, 68);
+  scale: 1.2;
+}*/
