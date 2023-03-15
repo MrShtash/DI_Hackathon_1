@@ -230,7 +230,7 @@ h1 {
   width: 500px;
 }
 
-.one-half {
+.one-half{
   display: inline-block;
   text-align: right;
     line-height: 30px;
@@ -267,7 +267,7 @@ h1 {
   text-align: left;
 }
 
-.one-third-last {
+.one-third-last1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -404,7 +404,7 @@ li a {
   text-align: left;
 }
 
-.one-third-last1 {
+.one-third-last {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -412,7 +412,7 @@ li a {
 .textarea {
     display: inline;
     padding-top: 60px;
-    height: 81px;
+  height: 81px;
 }
 
 .searchbutton {
