@@ -178,6 +178,7 @@ h1 {
 
 .one-half1 {
   display: inline-block;
+  text-align: right;
     line-height: 30px;
     margin-top: 20px;
     margin-left: 20px;
