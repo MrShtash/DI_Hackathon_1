@@ -33,7 +33,6 @@ body {
   background-color: #a4a4a400;
   border: 2px solid #a4a4a400;
   color: black;
-
   padding: 6px;
   font-size: 32px;
   border-radius: 10px;
@@ -49,14 +48,11 @@ body {
   display: block;
   width: 70%;
   text-align: center;
-  
-  
 }
 
 .dropup-content {
   display: none;
   position: absolute;
-  
   width: 65%;
   margin-left: 17%;
   text-align: center;
@@ -250,7 +246,7 @@ a:visited {
 ul {
   columns: 3;
   list-style: none;
-  margin-left: -22px;
+  margin-left: -70px;
  
 }
 
