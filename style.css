@@ -230,7 +230,7 @@ h1 {
   width: 500px;
 }
 
-.one-half{
+.one-half {
   display: inline-block;
   text-align: right;
     line-height: 30px;
@@ -267,7 +267,7 @@ h1 {
   text-align: left;
 }
 
-.one-third-last1 {
+.one-third-last {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -391,28 +391,28 @@ li a {
   height: 200px;
 }
 
-.one-half{
+.one-half {
   display: inline-block;
     line-height: 30px;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.one-half-last {
+.one-half-last1 {
   display: inline-block;
   margin-right: 20px;
   text-align: left;
 }
 
-.one-third-last {
+.one-third-last1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .textarea {
     display: inline;
-padding-top: 60px;
-  height: 81px;
+    padding-top: 60px;
+    height: 81px;
 }
 
 .searchbutton {
