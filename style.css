@@ -33,6 +33,7 @@ body {
   background-color: #a4a4a400;
   border: 2px solid #a4a4a400;
   color: black;
+
   padding: 6px;
   font-size: 32px;
   border-radius: 10px;
@@ -53,6 +54,7 @@ body {
 .dropup-content {
   display: none;
   position: absolute;
+
   width: 65%;
   margin-left: 17%;
   text-align: center;
@@ -141,6 +143,81 @@ h1 {
 .fa-instagram:hover {
   color: black;
 }
+
+
+.d1 {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  top: -30px;
+  left: 80px;
+  
+  }
+  
+.textcloud {
+  background-color: #e8a895;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 3px solid grey;
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+  }
+
+.textcloud p {
+  margin-top: -65px;
+  padding: 5px;
+  
+}
+
+.textreview {
+  font-size: 15px;
+}
+
+.namereview {
+  position: relative;
+  top: -20px;
+  left: -20px;
+  margin-left: -15px;
+}
+
+.ratevalue {
+  opacity: 0;
+  position: relative;
+  margin-top: 25px;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+.textcloud .ratevalue:hover {
+  opacity: 1;
+}
+
+.textcloud .ratevalue img {
+  height: 100%;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
 
 .CTA {
   background-color: #e8a895;
@@ -298,4 +375,105 @@ li a {
   display: flex;
   gap: 30px;
   
+}
+
+
+.CTA {
+  background-color: #e8a895;
+  text-align: center;
+  margin: auto;
+  margin-top: 85px;
+  font-size: 20px;
+  border: 3px solid grey;
+  border-radius: 25px;
+  width: 450px;
+
+  height: 200px;
+}
+
+.one-half{
+  display: inline-block;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.one-half-last {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.one-third-last {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+    display: inline;
+padding-top: 60px;
+  height: 81px;
+}
+
+.searchbutton {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.attention {
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  position: absolute;
+}
+
+#darkness {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(102, 102, 102, 0.5);
+}
+
+#darkness:target {
+  display: block;
+  display: inline-block;
+}
+
+.close {
+  position: absolute;
+  color: #080808;
+  background-color: #e6e6ff;
+  margin-top: 60px;
+  margin-left: 415px;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.submit:hover {
+  background: #e6e6ff;
+}
+
+.close:hover {
+  background: #e6e6ff;
+}
+
+.button_contact {
+  top: 400px;
+}
+
+.bcu {
+  text-align: center;
+  display: block;
+  font-size: 32px;
+  margin-top: 40px;
 }
