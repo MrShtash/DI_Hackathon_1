@@ -176,6 +176,37 @@ h1 {
 
 }
 
+.one-half1 {
+  display: inline-block;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.one-half-last1 {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.one-third-last1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+    display: inline;
+padding-top: 60px;
+  height: 81px;
+}
+
+.searchbutton {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 .social2 {
   font-size: 40px;
   margin-top: 0px;
