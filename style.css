@@ -155,6 +155,7 @@ h1 {
 
 .one-half{
   display: inline-block;
+  text-align: right;
     line-height: 30px;
     margin-top: 20px;
 }
