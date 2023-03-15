@@ -171,6 +171,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+.button {
+    cursor: pointer;
+
+}
+
 .social2 {
   font-size: 40px;
   margin-top: 0px;
