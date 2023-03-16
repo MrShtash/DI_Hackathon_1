@@ -482,3 +482,51 @@ li a {
   margin-top: 30px;
   margin-left: 425px;
 }
+
+.close1 {
+        display: inline-block;
+        position: absolute;
+        color: #000000;
+        background-color: #e4e4ee;
+        margin-top: 10px;
+        margin-left: -30px;
+        padding: 0 12px;
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid rgb(88, 83, 83);
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+.close2 {
+        display: inline-block;
+        position: absolute;
+        color: #000000;
+        background-color: #e4e4ee;
+        margin-top: -80px;
+        margin-left: 100px;
+        padding: 0 12px;
+        text-decoration: none;
+        font-size: 15px;
+        border: 1px solid rgb(88, 83, 83);
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      #frame {
+        width: 300px;
+        height: 90px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #797981;
+        border-radius: 10px;
+        color: #040405;
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #fff;
+}
